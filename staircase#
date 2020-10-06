@@ -1,0 +1,9 @@
+#input the height of the staircase where height and base are equal
+n = int(input())
+# setup the for loop to print the staircase with range 1 to n+1
+for i in range(1,n+1):
+    #printing n-i spaces and # in the remaining i spaces
+    a = ' '*(n-i)
+    b = "#"*(i)
+    # printing the concatinated string
+    print(a+b)
